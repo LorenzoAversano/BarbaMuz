@@ -211,15 +211,15 @@ a{
     margin: 0 auto;
 }
 
-<<<<<<< Updated upstream
+
 /* Home Fin */
 
 /* Video */
-=======
+
 .brand{
   padding-right: 15px;
 }
->>>>>>> Stashed changes
+
 
 #video .video {
   flex-direction: column-reverse;
@@ -229,14 +229,14 @@ a{
   padding: 100px 20px;
 }
 
-<<<<<<< Updated upstream
+
 .logo img {
   display: flex;
   margin: 0 auto;
 }
 
 /* Video Fin */
-=======
+
 .flux{
   display: flex;
 }
@@ -286,7 +286,7 @@ font-weight: bold;
 
 
 
->>>>>>> Stashed changes
+
 
 /* Discover */
 
