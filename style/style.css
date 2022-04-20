@@ -192,6 +192,9 @@ a{
     transform: scale(1.4);
   }
 }
+
+
+
   
 /* Home */
 
@@ -272,6 +275,10 @@ a{
 /* Discover Fin */
 
 
+
+
+
+
 /* About */
 #about .about {
   flex-direction: column-reverse;
@@ -322,6 +329,10 @@ a{
 }
 
 /* About Fin */
+
+
+
+
 
 /* Info */
 #info .info {
@@ -388,6 +399,10 @@ a{
 }
 
 /* Info Fin */
+
+
+
+
 
 
 /* Sponsor */
@@ -483,6 +498,11 @@ a{
 
 
 /* Sponsor Fin */
+
+
+
+
+
 
 
 
