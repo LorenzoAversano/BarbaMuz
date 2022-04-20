@@ -193,6 +193,9 @@ a{
     transform: scale(1.4);
   }
 }
+
+
+
   
 /* Home */
 
@@ -208,6 +211,43 @@ a{
     display: flex;
     margin: 0 auto;
 }
+
+
+
+
+
+/* Reservation */
+.reservation_title{
+  text-align: center;
+}
+
+.flux{
+  display: flex;
+}
+
+.reservation_container{
+  width: 50%;
+  margin: 3%;
+}
+
+.reservation_input{
+  width: 80%;
+  padding: 5px;
+}
+
+.reservation_submit{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.reservation_button{
+  display: flex;
+}
+
+
+
+
 
 /* Discover */
 
@@ -252,6 +292,10 @@ a{
 }
 
 /* Discover Fin */
+
+
+
+
 
 
 /* About */
@@ -304,6 +348,10 @@ a{
 }
 
 /* About Fin */
+
+
+
+
 
 /* Info */
 #info .info {
@@ -370,6 +418,10 @@ a{
 }
 
 /* Info Fin */
+
+
+
+
 
 
 /* Sponsor */
@@ -465,6 +517,11 @@ a{
 
 
 /* Sponsor Fin */
+
+
+
+
+
 
 
 
