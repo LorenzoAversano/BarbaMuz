@@ -211,9 +211,15 @@ a{
     margin: 0 auto;
 }
 
+<<<<<<< Updated upstream
 /* Home Fin */
 
 /* Video */
+=======
+.brand{
+  padding-right: 15px;
+}
+>>>>>>> Stashed changes
 
 #video .video {
   flex-direction: column-reverse;
@@ -223,12 +229,64 @@ a{
   padding: 100px 20px;
 }
 
+<<<<<<< Updated upstream
 .logo img {
   display: flex;
   margin: 0 auto;
 }
 
 /* Video Fin */
+=======
+.flux{
+  display: flex;
+}
+
+.reservation_container{
+  width: 50%;
+  margin: 3%;
+}
+
+.reservation_container form{
+  margin: 5% auto;
+}
+
+.reservation_input{
+  width: 80%;
+  padding: 5px;
+}
+
+.reservation_submit{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.reservation_button{
+  padding: 3px;
+}
+
+.reservation_bold{
+font-weight: bold;
+}
+
+@media only screen and (max-width: 800px) {
+  .reservation_img img{
+    height: 5000px;
+  }
+
+  .flux{
+    display: block;
+  }
+
+  .reservation_container{
+    width: 100%;
+    margin: 3%;
+  }
+}
+
+
+
+>>>>>>> Stashed changes
 
 /* Discover */
 
