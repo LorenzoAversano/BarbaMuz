@@ -237,6 +237,14 @@ a{
 
 /* Video Fin */
 
+
+/* RESERVATION */
+
+.reservation_title{
+  text-align: center;
+  margin-top: 100px;
+}
+
 .flux{
   display: flex;
 }
@@ -255,6 +263,15 @@ a{
   padding: 5px;
 }
 
+.reservation_hr{
+  width: 80%;
+}
+
+.reservation_space{
+  margin: 5px 0;
+}
+
+
 .reservation_submit{
   display: flex;
   justify-content: space-between;
@@ -269,10 +286,16 @@ a{
 font-weight: bold;
 }
 
+.reservation_img img{
+  display: flex;
+  justify-content: right;
+}
+
+
 @media only screen and (max-width: 800px) {
-  .reservation_img img{
+  /* .reservation_img img{
     height: 5000px;
-  }
+  } */
 
   .flux{
     display: block;
