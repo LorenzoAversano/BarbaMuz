@@ -220,7 +220,6 @@ a{
   padding-right: 15px;
 }
 
-
 #video .video {
   flex-direction: column-reverse;
   text-align: center;
@@ -239,6 +238,15 @@ a{
 
 
 /* RESERVATION */
+
+#reservation .reservation {
+  flex-direction: column-reverse;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 20px;
+}
+
 
 .reservation_title{
   text-align: center;
@@ -314,17 +322,6 @@ font-weight: bold;
 
 
 
-/* TYPO */
-
-.typo{
-  font-family: opensans;
-}
-
-/* TYPO fin */
-
-
-
-
 /* Discover */
 
 #discover .discover {
@@ -368,9 +365,6 @@ font-weight: bold;
 }
 
 /* Discover Fin */
-
-
-
 
 
 
@@ -474,6 +468,11 @@ font-weight: bold;
 
 #info .text :nth-child(13){
   word-spacing: 4.25rem;
+}
+
+#info iframe {
+  width: 400px;
+  height: 300px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -650,7 +649,6 @@ font-weight: bold;
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  margin-top: 100px;
 }
   
 .instagram-div1 { 
@@ -686,6 +684,94 @@ font-weight: bold;
 .instagram-div5 { grid-area: 5 / 1 / 6 / 2; }
 .instagram-div6 { grid-area: 6 / 1 / 7 / 2; }
 .instagram-div7 { grid-area: 7 / 1 / 8 / 2; }
+  
+}
+
+/* Instagram Fin */
+
+
+
+/* Instagram */
+
+#tiktok .tiktok {
+  flex-direction: column-reverse;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 20px;
+}
+
+#tiktok .tiktok p{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-top: 30px;
+}
+
+#tiktok .tiktok-img{
+  display: flex;
+  justify-content: center;
+  
+}
+
+#tiktok .tiktok-img img { 
+  width: 400px;
+  
+}
+
+#tiktok .tiktok-subtitle{
+  font-size: 25px;
+}
+
+#instagram .instagram-subtitle2{
+  font-size: 20px;
+  height: 50px;
+}
+
+#tiktok .text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.tiktok-parent {
+  display: grid;
+  grid-column-gap: 100px;
+  grid-row-gap: 100px;
+}
+  
+.tiktok-div1 { 
+  grid-area: 1 / 1 / 3 / 2;    
+  align-items: center;
+  display: flex; 
+  gap: 100px;
+}
+
+.tiktok-div2 { grid-area: 1 / 2 / 2 / 3; }
+
+
+
+
+@media only screen and (max-width: 800px) {
+.tiktok-parent {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(7, 1fr);
+  text-align: center;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+  
+.tiktok-div1 { 
+  grid-area: 1 / 1 / 2 / 2; 
+  display: block;
+}
+.tiktok-div2 { grid-area: 2 / 1 / 3 / 2; }
+.tiktok-div3 { grid-area: 3 / 1 / 4 / 2; }
+.tiktok-div4 { grid-area: 4 / 1 / 5 / 2; }
+.tiktok-div5 { grid-area: 5 / 1 / 6 / 2; }
+.tiktok-div6 { grid-area: 6 / 1 / 7 / 2; }
+.tiktok-div7 { grid-area: 7 / 1 / 8 / 2; }
   
 }
 
@@ -781,6 +867,46 @@ fieldset {
 }
 
 /* Contact Fin */
+
+/* Discover-sm */
+
+#discover-sm .discover-sm {
+  flex-direction: column-reverse;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 20px;
+}
+
+#discover-sm .discover-sm p{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-top: 30px;
+}
+
+#discover-sm .discover-sm-title{
+  font-size: 45px;
+  color: #FF00A8;
+}
+
+#discover-sm .discover-sm-subtitle{
+  font-size: 25px;
+}
+
+
+#discover-sm .sm-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+  #discover .discover-sm-title{
+     text-align: center;
+  }
+}
+
+/* Discover-sm Fin */
 
 /* Faq */
 
